@@ -12,7 +12,7 @@ import proxy.Person;
 
 public class PersonNormalProxy implements Person {
 
-    private Man mMan;
+    private Man mMan;//持有被代理对象的引用
 
     public PersonNormalProxy(Man man) {
         mMan = man;
